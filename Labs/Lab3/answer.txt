@@ -1,0 +1,39 @@
+
+Adjacency_Matrix :
+. 1 . . . . . . 1 . . . 
+. . 1 . . 1 . . . . . . 
+. . . 1 . . . . . . . . 
+. . . . 1 . . . . . . . 
+. . . . . . . 1 . . . 1 
+. . . . . . . . 1 . . . 
+. . 1 . . 1 . . . . . . 
+. . . 1 . . 1 . . . . . 
+. 1 . . . . . . . . . . 
+. . . . . 1 . . 1 . . . 
+. . . . . . 1 . . 1 . . 
+. . . . . . . 1 . . 1 . 
+Adjacency_List :
+a : ( a --> c ) ( a --> b )
+b : ( b --> d ) ( b --> e )
+e : ( e --> g )
+g : ( g --> i )
+i : ( i --> j ) ( i --> k )
+d : ( d --> c )
+f : ( f --> d ) ( f --> e )
+k : ( k --> f ) ( k --> g )
+c : ( c --> b )
+l : ( l --> c ) ( l --> d )
+h : ( h --> l ) ( h --> f )
+j : ( j --> k ) ( j --> h )
+
+List :
+
+DFS_recur      a c b d e g i j k f h l
+DFS_non_recur  a b e g i k f j h l d c
+BFS            a c b d e g i j k h f l
+
+Matrix :
+
+DFS_recur      a b e g i k f d c j h l
+DFS_non_recur  a c b d e g i j h l f k
+BFS            a b c e d g i k j f h l

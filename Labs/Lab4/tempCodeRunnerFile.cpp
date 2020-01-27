@@ -1,0 +1,1 @@
+srand((int)time(0));

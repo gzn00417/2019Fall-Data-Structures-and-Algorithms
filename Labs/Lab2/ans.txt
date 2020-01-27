@@ -1,0 +1,9 @@
+level_trave:          		A B C D E H G F N M 
+pre_order_recursion:  	A B C E D H F N G M 
+in_order_recursion:   	A E C B F H N D G M 
+post_order_recursion: 	E C F N H M G D B A 
+pre_order_non_recur:  	A B C E D H F N G M 
+in_order_non_recur:   	A E C B F H N D G M 
+post_order_non_recur: 	E C F N H M G D B A 
+complete_binary_tree: 	false
+lowest_common_ancestor: 	A
